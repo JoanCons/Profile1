@@ -1,0 +1,180 @@
+:root {
+    --light: #ffffff;
+    --light-x: rgb(204, 225, 247);
+    --dark: rgb(2, 2, 2);
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark);
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 7em;
+}
+
+.text-light {
+    color: var(--light) !important;
+}
+
+.bg-dark {
+    background-color: var(--light) !important;
+}
+
+.bg-dark-x {
+    background-color: var(--light-x);
+}
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.form-control:focus {
+    background-color: var(--light-x);
+    outline: none;
+}
+
+h1 a {
+    color: #F6BD60;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner img {
+    margin-left: 15%;
+    width: 70%;
+    height: 30%;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20%);
+    color: rgb(245, 224, 197);
+    text-shadow: 1px 1px #000000;
+}
+
+#banner h2 {
+    font-size: 35px;
+}
+
+#banner p {
+    font-size: 23px;
+}
+
+#categoriasFav .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#categoriasFav article {
+    margin: 15px;
+}
+
+#categoriasFav article:hover {
+    background: #F2F5F1;
+    transform: translateY(-2%);
+    box-shadow: 2px 3px 13px 1px rgb(76, 76, 76);
+}
+
+#categoriasFav img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 3000px;
+}
+
+#categoriasFav h4,
+h3 {
+    text-align: center;
+}
+
+#footer {
+    background-color: #EFD7C2;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+#separador {
+    background-color: #EFD7C2;
+}
+
+#separador h3 {
+    padding-left: 4%;
+    text-align: start;
+}
+
+#contenedorProdParticip {
+    align-items: center;
+}
+
+#Subastandose {
+    color: #84A59D;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#detalleArticulo p {
+    font-size: 16px;
+}
+
+#btnPujar {
+    font-size: 20px;
+    border: #000000;
+    border-style: groove;
+    box-shadow: 1px 3px 8px rgb(76, 76, 76);
+    background-color: white;
+}
+
+#btnPujar:hover {
+    background-color: #84A59D;
+    color: white;
+}
+
+#subTitulo {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#infoArtiSubasta {
+    border: #000000;
+    border-style: solid;
+    background-color: #F7EDE2;
+    margin: 35px 99px;
+    height: 333px;
+    min-height: 332px;
+}
+
+#infoArtiSubastaP {
+    margin: 0 2%;
+    font-size: medium;
+}
+
+.table-fixed {
+    margin-left: 2%;
+    width: 60%;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+}

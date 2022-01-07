@@ -1,0 +1,90 @@
+:root {
+    --light: #ffffff;
+    --light-x: rgb(204, 225, 247);
+    --dark: rgb(2, 2, 2);
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark);
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 7em;
+}
+
+.text-light {
+    color: var(--light) !important;
+}
+
+.bg-dark {
+    background-color: var(--light) !important;
+}
+
+.bg-dark-x {
+    background-color: var(--light-x);
+}
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.form-control:focus {
+    background-color: var(--light-x);
+    outline: none;
+}
+
+h1 a {
+    color: #F6BD60;
+}
+
+#footer {
+    background-color: #EFD7C2;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+#separador {
+    background-color: #EFD7C2;
+}
+
+#separador h3 {
+    padding-left: 4%;
+    text-align: start;
+}
+
+#contenedorProdParticip {
+    align-items: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#infoQuienesSomos {
+    padding: 1% 2%;
+    font-size: medium;
+}
+
+#img {
+    display: flex;
+    flex-direction: row;
+}
+
+#img2 {
+    margin: auto;
+    border: 3px solid #ffffff;
+    box-shadow: 1px 3px 8px rgb(76, 76, 76);
+    width: 30%;
+}

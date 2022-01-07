@@ -1,0 +1,43 @@
+:root {
+    --light: #ffffff;
+    --light-x: rgb(204, 225, 247);
+    --dark: rgb(2, 2, 2);
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark);
+}
+
+.text-light { color: var(--light) !important; }
+.bg-dark { background-color: var(--light) !important; }
+.bg-dark-x { background-color: var(--light-x); }
+
+h1 nav{color: #F6BD60;}
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--light-x);
+    outline: none;
+}
+
+.img-1 {
+    background-image: url('20190711174602-ideas.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('5ffe0f965269f.jpg');
+    background-size: cover;
+    background-position: center;
+}

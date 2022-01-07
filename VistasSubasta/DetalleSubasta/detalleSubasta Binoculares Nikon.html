@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ffec4ec2ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title>Subastas.cl | Home</title>
+</head>
+
+<body class="bg-dark">
+
+    <!--Navigation bar DEMO -->
+    <div class="container">
+        <br>
+        <header>
+            <h1>
+                <nav class="text-center">Subastas.cl</nav>
+                <li class="nav navbar-nav navbar-right">
+                    <a style="margin-top: 1.5em; margin-left: 1em; font-size: medium; color: rgba(47, 46, 46, 0.823);" class="nav-link" href="/Login/Login.html">Cerrar sesión</a>
+                </li>
+            </h1>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/miSaldo/miSaldo.html">Mi Saldo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active mr-3">
+                            <a class="nav-link" href="/Home/Home.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="/quienesSomos/quienesSomos.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="/MisSubastas/misSubastas.html">Mis subastas</a>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Categorias</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/ListaCategorias/listaCat_Antiguedades.html">Antigüedades</a>
+                                <a class="dropdown-item" href="/ListaCategorias/listaCat_Bicicletas.html">Bicicletas</a>
+                                <a class="dropdown-item" href="/ListaCategorias/listaCat_Celulares.html">Celulares</a>
+                                <a class="dropdown-item" href="/ListaCategorias/listaCat_Libros.html">Libros</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/ListaCategorias/listaCat_todas.html">Todas las categorías</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!--END Navigation bar DEMO -->
+
+
+    <!-- Subastas creadas -->
+    <section>
+        <div class="row g-0">
+
+            <div id="separador" class="w-100">
+                <h3 style="text-align: center ;"><b>Subasta:</b> Binoculares Nikon</h1>
+            </div>
+        </div>
+    </section>
+    <!-- End subastas creadas -->
+    <div class="container">
+        <div class="row gx-5 justify-content-center">
+
+            <div class="col-md-6" style="border:3px; border-style:solid; border-color:#000000; padding: 1em; background-color: #F2F5F1;">
+                <article>
+                    <img src="../imgs/nikon.png" width="40%" height="90%" class="center">
+                    <div style="text-align: left;">
+                        <h3 id="Producto_Marca">Binoculares Nikon 7549</h3>
+                        <h3 id="Modelo">Monarch 7 10x42</h3>
+                        <h4 id="Subastandose"></h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <div style="border:3px; border-style:solid; border-color:#000000; padding: 1em; background-color: #F2F5F1;" id="detalleArticulo">
+                    <p>Categoria: <span>Varios</span></p>
+                    <p>Fecha subasta: <span>11/02/2022</span></p>
+                    <p>Cierre: <span>00:00</span></p>
+                    <p>Puja inicial: <span>400.000</span></p>
+                    <p>Puja actual: <span>450.000</span></p>
+                    <p>Aumento de puja $ <span>10.000</span></p>
+                    <p>Hora ultima puja: <span>20:20</span></p>
+                    <button type="submit " id="btnPujar" class="btn w-100 " onclick="location.href='/EditarSubasta/EditNikon.html'">Editar <span></span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="infoArtiSubasta">
+        <h3 id="subTitulo">Descripción</h3>
+        <p id="infoArtiSubastaP">Descripcion: El MONARCH 7 10x42 proporciona un campo de visión excepcionalmente amplio que hace que sea fácil encontrar tu sujeto. Los revestimientos dieléctricos de prisma multicapa de alto brillo se aplican a todos los lentes y revestimientos
+            de prisma para proporcionar imágenes de alto contraste y reproducción precisa del color. Gracias a un revestimiento blindado de goma duradero, el MONARCH 7 es cómodo de sostener y lo suficientemente resistente como para soportar cualquier
+            condición.
+        </p>
+        <br>
+        <!--end div table-->
+
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <section id="footer">
+        <p><a href="# ">Términos y condiciones</a> &nbsp;&nbsp;&nbsp;&nbsp Contacto: +56998686799 &nbsp;&nbsp;&nbsp;&nbsp Horario de atención: Lunes a Viernes: 9.00 - 17.00 </p>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js " integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/ " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-latest.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>
